@@ -735,7 +735,7 @@ export function Entry({
   useRepoHeader({ header: headerNode });
 
   const loadingSkeleton = useMemo(() => (
-    <div className="w-full max-w-screen-md mx-auto grid items-start gap-6">
+    <div className="w-full max-w-screen-xl mx-auto grid items-start gap-6">
       {path !== ".pages.yml"
         ? 
           <>

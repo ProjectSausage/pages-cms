@@ -1163,7 +1163,7 @@ const EntryForm = ({
       <form
         id="entry-form"
         onSubmit={handleFormSubmit}
-        className="w-full max-w-screen-md mx-auto grid items-start gap-6"
+        className="w-full max-w-screen-xl mx-auto grid items-start gap-6"
       >
         {filePath && (
           <div className="space-y-2 overflow-hidden">
